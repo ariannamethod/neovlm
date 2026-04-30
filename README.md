@@ -117,7 +117,7 @@ cc neovlm.c notorch.c -O2 -lm -DUSE_BLAS -lopenblas -o neovlm
 
 ## training
 
-on an 8 GB MacBook Air (M1):
+on an 8 GB Intel i5 2019 (calculator):
 
 ```
 model: 6 layers, D=256, 8 heads, SiLU-gated FFN
